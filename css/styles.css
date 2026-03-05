@@ -1,7 +1,40 @@
 /* Google Fonts */
 
 
-/* GFontes Utilizadas */
+/* Google Fontes Utilizadas */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Share+Tech&display=swap');
+
+
+
+/* Variaveis Fontes */
+:root {
+--fonte-menu:"Share Tech, sans-serif";
+--fonte-titulo: "Oswald", sans-serif;
+--fonte-teto: "Jost", sans-serif;
+font-fam
+}
+/* Variaveis Cores */
+
+:root {
+    --cor-destaque: 
+    --cor-menur-padrao: 
+    --
+}
+
+
+/* Converter REM em PX */
+
+html {
+    font-size: 62.5%;
+    
+
+
+}
+
+
+
 
 
 /* Reset CSS = Padronizar os Navegadores */
@@ -17,14 +50,14 @@
 
 /* TODA ESTRUTURA DO SITE ou HTML */
 body {
-    background-color: #b1aeae;
+    background-color: #ffffff;
     font-size: 16px;
 }
 
 /* Cabeçalho */
 header {
     /* Cor fundo = Background */
-    background-color: #706f6f5d;
+    background-color: #3f3d3d71;
     width: 100%; /* largura */  /* Responsivas */
     display: flex;
     justify-content: space-between;
@@ -48,8 +81,8 @@ header {
 h1 {
     font-size: 32px;
     text-align: center; /* Centralizar Texto */
-    background-color: rgb(255, 255, 255); /* Cor fundo */
-    color: #fff; /* Cor texto */
+    background-color: rgb(250, 247, 247); /* Cor fundo */
+    color: #ffffff; /* Cor texto */
 }
 /* responsivo*/
 @media (min-width:768px) {
@@ -67,5 +100,21 @@ h1 {
     }
 }
 
+/* A href */
 
+.menu-link {
+text-decoration: none;
 
+}
+.menu-texto {
+color: rgba(24, 23, 23, 0.993);
+}
+.menu-texto { 
+    text-transform: uppercase;
+    font-size:  0,75rem;
+    font-family:var(--fonte-titulo);
+}
+/* Herança */
+.menu-link :active.menu-text {
+    color: var(--fonte-titulo);
+}
