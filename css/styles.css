@@ -57,7 +57,7 @@ body {
 /* Cabeçalho */
 header {
     /* Cor fundo = Background */
-    background-color: #3f3d3d71;
+    background-color: #ffffff;
     width: 100%; /* largura */  /* Responsivas */
     display: flex;
     justify-content: space-between;
@@ -82,7 +82,7 @@ h1 {
     font-size: 32px;
     text-align: center; /* Centralizar Texto */
     background-color: rgb(250, 247, 247); /* Cor fundo */
-    color: #ffffff; /* Cor texto */
+    color: #000000; /* Cor texto */
 }
 /* responsivo*/
 @media (min-width:768px) {
@@ -107,7 +107,7 @@ text-decoration: none;
 
 }
 .menu-texto {
-color: rgba(24, 23, 23, 0.993);
+color: rgba(0, 0, 0, 0.993);
 }
 .menu-texto { 
     text-transform: uppercase;
@@ -118,3 +118,8 @@ color: rgba(24, 23, 23, 0.993);
 .menu-link :active.menu-text {
     color: var(--fonte-titulo);
 }
+.logo img {
+    width: 5.2rem; /* Largura ou comprimento */
+}
+   
+
