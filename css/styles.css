@@ -50,8 +50,12 @@ html {
 
 /* TODA ESTRUTURA DO SITE ou HTML */
 body {
-    background-color: #ffffff;
+    background-color: #dad7d7;
     font-size: 16px;
+}
+
+body {
+    background: linear-gradient(90deg #000000 05, #ffffff 100%);
 }
 
 /* Cabeçalho */
@@ -115,11 +119,30 @@ color: rgba(0, 0, 0, 0.993);
     font-family:var(--fonte-titulo);
 }
 /* Herança */
-.menu-link :active.menu-text {
-    color: var(--fonte-titulo);
+.menu-link :active.menu-texto
+.menu-link:hover . .menu-texto {
+    color: var(--cor-destaque);
+    color #fff  
+
 }
 .logo img {
     width: 5.2rem; /* Largura ou comprimento */
 }
-   
+   /* Responsivo */
+
+/* A partir de Telas Grandes */
+@media (min-width:768px) {
+
+    header {
+        padding: 1rem 6rem;
+    }
+
+
+    .menu-desktop {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin: auto;
+    }
+}
 
