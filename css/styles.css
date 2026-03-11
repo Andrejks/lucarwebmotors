@@ -17,10 +17,10 @@ font-fam
 }
 /* Variaveis Cores */
 
-:root {
-    --cor-destaque: 
-    --cor-menur-padrao: 
-    --
+:root, :root [data-theme="dark"] {
+    --cor-destaque: #fff;
+    --cor-menur-padrao: #000;
+--icon-tema: #000;
 }
 
 
@@ -120,7 +120,7 @@ color: rgba(0, 0, 0, 0.993);
 }
 /* Herança */
 .menu-link :active.menu-texto
-.menu-link:hover . .menu-texto {
+.menu-link:hover .menu-texto {
     color: var(--cor-destaque);
     color #fff  
 
@@ -145,4 +145,18 @@ color: rgba(0, 0, 0, 0.993);
         margin: auto;
     }
 }
+:root, :root [data-theme="dark"] {
+
+--cor-fundo: #000
+
+}
+:root, :root [data-theme=light] {
+
+--cor-fundo: #fff;
+--cor-fundosecundario: #aaa;
+--cor-destaque: #000;
+--cor-txt-menu: #ff0000;
+}
+
+
 
